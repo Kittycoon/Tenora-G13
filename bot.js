@@ -6,11 +6,10 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('document', document => {
-    if (document.content === '!the raven cries') {
-        document.write("you cannot understand this.");
-    	document.write("\n");
-        document.write("Leave.");
+client.on('message', message => {
+   if (message.content === '!the raven cries') {
+    	message.reply("you are not worthy of this knowlege.");
+        message.reply("Leave me alone.");
   	}
     if (message.content === '!app') {
     	message.reply('please specify the agent to follow up on.');
