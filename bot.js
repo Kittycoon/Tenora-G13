@@ -6,7 +6,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', () => {
+client.on('message', message => {
     if (message.content === '!the raven cries') {
     	message.reply("you are not worthy of this knowlege./nYou must leave this place.");
   	}
