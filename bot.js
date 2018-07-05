@@ -9,6 +9,9 @@ client.on('message', message => {
     if (message.content === '!ping') {
     	message.reply('pong');
   	}
+    if (message.content === '!app') {
+    	message.reply('please specify the agent to follow up on.');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
