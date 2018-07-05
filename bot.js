@@ -6,8 +6,8 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === '!the raven cries') {
+client.on('document', document => {
+    if (document.content === '!the raven cries') {
         document.write("you cannot understand this.");
     	document.write("\n");
         document.write("Leave.");
