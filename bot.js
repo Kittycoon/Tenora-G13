@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!the raven cries') {
-    	message.reply('you are not worthy of this knowlege.' + "/r/n" + 'You must leave this place.');
+    	message.reply('you are not worthy of this knowlege.', "/r/n", 'You must leave this place.');
   	}
     if (message.content === '!app') {
     	message.reply('please specify the agent to follow up on.');
