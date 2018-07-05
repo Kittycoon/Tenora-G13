@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!ping') {
-    	message.reply('pong');
+    if (message.content === '!the raven cries') {
+    	message.reply('you are not worthy of this knowlege.' + "/n", 'You must leave this place.');
   	}
     if (message.content === '!app') {
     	message.reply('please specify the agent to follow up on.');
