@@ -7,8 +7,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-   if (message.content === '!the raven cries') {
-    	message.reply("you are not worthy of this knowlege." + "/n");
+   if (message.content === '!text') {
+    	message.reply("sample text /n sample text");
         
   	}
     if (message.content === '!app') {
