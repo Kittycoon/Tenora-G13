@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
    if (message.content === '!text') {
-    	message.reply(`sample text /n sample text`);
+    	message.reply(`sample text \n sample text`);
         
   	}
     if (message.content === '!app') {
