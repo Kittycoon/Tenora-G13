@@ -13,7 +13,7 @@ client.on('message', message => {
   "embed": {
     "title": "_`STARS PROFILE PREVIEW`_",
     "url": "https://discordapp.com",
-    "color": 15476550,
+    "color": 0xffbf00,
     "timestamp": "2019-01-31T01:43:56.510Z",
     "thumbnail": {
       "url": "https://cdn.discordapp.com/embed/avatars/0.png"
