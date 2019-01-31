@@ -47,30 +47,9 @@ client.on('message', message => {
     ]
   }
 });
-          if (message.content === '!events sm') {
-    	message.reply({
-  "embed": {
-    "title": "_`CURRENT EVENTS`_",
-    "color": 0xffbf00,
-    "thumbnail": {
-      "url": ""
-    },
-    "image": {
-      "url": ""
-    },
-    "fields": [
-      {
-        "name": "EVENTS:",
-        "value": "Nothing is going on at the moment. All is quiet on comms."
-      }
-    ]
-  }
-});
-  	}
     if (message.content === '!app') {
     	message.reply('please specify the agent to follow up on.');
   	}
 });
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
