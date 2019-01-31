@@ -8,8 +8,8 @@ client.on('ready', () => {
 
 const prefix = "!";
 client.on('message', message => {
-   if (message.content === '!text') {
-    	message.reply(`sample text \n sample text`);
+   if (message.content === '!app Jessica') {
+    	message.reply(`\n Name: Jessica Aquila \n Age: 25`);
         
   	}
     if (message.content === '!app') {
