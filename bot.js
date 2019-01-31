@@ -13,7 +13,7 @@ client.on('message', message => {
   "embed": {
     "title": "title",
     "description": "t",
-    "color": 1976851,
+    "color": 0xffbf00,
     "thumbnail": {
       "url": "https://cdn.discordapp.com/embed/avatars/0.png"
     },
@@ -51,37 +51,17 @@ client.on('message', message => {
     	message.reply({
   
   "embed": {
-    "title": "title",
-    "description": "t",
-    "color": 1976851,
-    "thumbnail": {
-      "url": "https://cdn.discordapp.com/embed/avatars/0.png"
-    },
-    "image": {
-      "url": "https://cdn.discordapp.com/embed/avatars/0.png"
-    },
+    "title": "Current STAR Merchunary Events",
+    "description": "Wonder what's going on in the SM Universe? This is your one stop shop for all of your gun shooting needs.",
+    "color": 0xffbf00,
     "fields": [
       {
-        "name": "🤔",
-        "value": "some of these properties have certain limits..."
+        "name": "Main Events:",
+        "value": "Nothing Going on at the moment! \n "
       },
       {
-        "name": "😱",
-        "value": "try exceeding some of them!"
-      },
-      {
-        "name": "🙄",
-        "value": "an informative error should show up, and this view will remain as-is until all issues are fixed"
-      },
-      {
-        "name": "<:thonkang:219069250692841473>",
-        "value": "these last two",
-        "inline": true
-      },
-      {
-        "name": "<:thonkang:219069250692841473>",
-        "value": "are inline fields",
-        "inline": true
+        "name": "Sub Events:",
+        "value": "Nothing Going on at the moment! \n "
       }
     ]
   }
