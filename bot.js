@@ -12,14 +12,9 @@ client.on('message', message => {
     	message.reply({
   "embed": {
     "title": "_`STARS PROFILE PREVIEW`_",
-    "description": "this supports [named links](https://discordapp.com) on top of the previously shown subset of markdown. ```\nyes, even code blocks```",
     "url": "https://discordapp.com",
     "color": 15476550,
     "timestamp": "2019-01-31T01:43:56.510Z",
-    "footer": {
-      "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
-      "text": "footer text"
-    },
     "thumbnail": {
       "url": "https://cdn.discordapp.com/embed/avatars/0.png"
     },
