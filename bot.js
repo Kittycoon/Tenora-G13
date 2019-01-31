@@ -47,7 +47,7 @@ client.on('message', message => {
   }
 });
    }
-   if (message.content === '!app meh') {
+   if (message.content === '!events sm') {
     	message.reply({
   
   "embed": {
@@ -66,7 +66,18 @@ client.on('message', message => {
     ]
   }
 });
+   }
+   if (message.content === '!help') {
+    	message.reply({
+  
+  "embed": {
+    "title": "Help Menu",
+    "description": "Little lost? Here's a list of commands that the bot accepts. \n `Application lookup: !app [Name of Character (Case Sensitive)]` \n Current Events: `!events [SM, FS]` \n Store Stock Check: `!store [Name of Store]`",
+    "color": 0xffbf00,
+  }
+});
   	}
+
     if (message.content === '!app') {
     	message.reply('please specify the agent to follow up on.');
   	}
