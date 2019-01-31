@@ -40,14 +40,32 @@ client.on('message', message => {
         "inline": true
       },
       {
-        "name": "Primary Ability",
-        "value": "`Critical Hit`",
+        "name": "Weapon Mastery",
+        "value": "`good succ ability`",
         "inline": true
       }
     ]
   }
 });
-        
+          if (message.content === '!events sm') {
+    	message.reply({
+  "embed": {
+    "title": "_`CURRENT EVENTS`_",
+    "color": 0xffbf00,
+    "thumbnail": {
+      "url": ""
+    },
+    "image": {
+      "url": ""
+    },
+    "fields": [
+      {
+        "name": "EVENTS:",
+        "value": "Nothing is going on at the moment. All is quiet on comms."
+      }
+    ]
+  }
+});
   	}
     if (message.content === '!app') {
     	message.reply('please specify the agent to follow up on.');
