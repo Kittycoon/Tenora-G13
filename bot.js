@@ -72,7 +72,7 @@ client.on('message', message => {
   
   "embed": {
     "title": "Help Menu",
-    "description": "Little lost? Here's a list of commands that the bot accepts. \n `Application lookup: !app [Name of Character (Case Sensitive)]` \n Current Events: `!events [SM, FS]` \n Store Stock Check: `!store [Name of Store]`",
+    "description": "Little lost? Here's a list of commands that the bot accepts. \n \n Application lookup: `!app [Name of Character (Case Sensitive)]` \n Current Events: `!events [sm, fs]` \n Store Stock Check: `!store [Name of Store]`",
     "color": 0xffbf00,
   }
 });
