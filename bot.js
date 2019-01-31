@@ -6,6 +6,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+const prefix = "!";
 client.on('message', message => {
    if (message.content === '!text') {
     	message.reply(`sample text \n sample text`);
