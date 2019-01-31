@@ -23,25 +23,25 @@ client.on('message', message => {
     },
     "fields": [
       {
-        "name": "🤔",
-        "value": "some of these properties have certain limits..."
+        "name": "Name:",
+        "value": "`Jessica Aquila`"
       },
       {
-        "name": "😱",
-        "value": "try exceeding some of them!"
+        "name": "Age:",
+        "value": "`25`"
       },
       {
-        "name": "🙄",
-        "value": "an informative error should show up, and this view will remain as-is until all issues are fixed"
+        "name": "Alignment:",
+        "value": "Lol I dont even fucken know which side is what this is just a demo anyways."
       },
       {
-        "name": "<:thonkang:219069250692841473>",
-        "value": "these last two",
+        "name": "Primary Weapon:",
+        "value": "`Sniper Rifle`",
         "inline": true
       },
       {
-        "name": "<:thonkang:219069250692841473>",
-        "value": "are inline fields",
+        "name": "Primary Ability",
+        "value": "`Critical Hit`",
         "inline": true
       }
     ]
