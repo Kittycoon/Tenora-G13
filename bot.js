@@ -11,8 +11,8 @@ client.on('message', message => {
     	message.reply({
   
   "embed": {
-    "title": "title",
-    "description": "t",
+    "title": "Mercenary Database",
+    "description": "",
     "color": 0xffbf00,
     "thumbnail": {
       "url": "https://cdn.discordapp.com/embed/avatars/0.png"
@@ -22,8 +22,8 @@ client.on('message', message => {
     },
     "fields": [
       {
-        "name": "🤔",
-        "value": "some of these properties have certain limits..."
+        "name": "**Name:**",
+        "value": "Jessica Aquila"
       },
       {
         "name": "😱",
