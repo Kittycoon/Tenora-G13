@@ -76,18 +76,11 @@ client.on('message', message => {
     "color": 0xffbf00,
   }
 });
-  	}
-
+   }
     if (message.content === '!app') {
     	message.reply('please specify the agent to follow up on.');
   	}
 });
-    }
-    if (message.content === 'say hi robot') {
-    	message.reply('sup fuckers');
-  	}
-});
 
-// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
 
