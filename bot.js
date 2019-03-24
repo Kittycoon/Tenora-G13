@@ -83,6 +83,11 @@ client.on('message', message => {
   	}
 });
 
+    if (message.content === 'say hi robot') {
+    	message.reply('sup fuckers');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
 
