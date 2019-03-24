@@ -14,9 +14,6 @@ client.on('message', message => {
     "title": "Mercenary Database",
     "description": "",
     "color": 0xffbf00,
-    "thumbnail": {
-      "url": "https://cdn.discordapp.com/embed/avatars/0.png"
-    },
     "image": {
       "url": "https://cdn.discordapp.com/embed/avatars/0.png"
     },
@@ -79,9 +76,6 @@ client.on('message', message => {
    }
     if (message.content === '!app') {
     	message.reply('please specify the agent to follow up on.');
-  	}
-    if (message.content === 'say hi robot') {
-    	message.reply('sup fuckers');
   	}
 });
 
