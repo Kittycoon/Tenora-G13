@@ -26,21 +26,21 @@ client.on('message', message => {
         "value": "Jessica Aquila"
       },
       {
-        "name": "😱",
-        "value": "try exceeding some of them!"
+        "name": "PLACEHOLDER",
+        "value": "PLACEHOLDER"
       },
       {
-        "name": "🙄",
-        "value": "an informative error should show up, and this view will remain as-is until all issues are fixed"
+        "name": "PLACEHOLDER",
+        "value": "PLACEHOLDER"
       },
       {
-        "name": "<:thonkang:219069250692841473>",
-        "value": "these last two",
+        "name": "PLACEHOLDER",
+        "value": "PLACEHOLDER",
         "inline": true
       },
       {
-        "name": "<:thonkang:219069250692841473>",
-        "value": "are inline fields",
+        "name": "PLACEHOLDER",
+        "value": "PLACEHOLDER",
         "inline": true
       }
     ]
