@@ -54,8 +54,8 @@ client.on('message', message => {
     "title": "Mercenary Database",
     "description": "",
     "color": 0xffbf00,
-    "thumbnail": { "url": "https://cdn.discordapp.com/embed/avatars/0.png" },
-    "image": { "url": "https://cdn.discordapp.com/embed/avatars/0.png" },
+    "thumbnail": { "url": "https://orig00.deviantart.net/5293/f/2019/104/1/a/kayte__2__by_rgssxtreme-dd4l8sh.png" },
+    "image": { "url": "https://orig00.deviantart.net/7447/f/2019/104/c/9/kayte_by_rgssxtreme-dd4l85z.png" },
     "fields": [
       {
         "name": "Name:",
