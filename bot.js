@@ -14,36 +14,76 @@ client.on('message', message => {
     "title": "Mercenary Database",
     "description": "",
     "color": 0xffbf00,
-    "image": {
-      "url": "https://cdn.discordapp.com/embed/avatars/0.png"
-    },
+    "thumbnail": { "url": "https://cdn.discordapp.com/embed/avatars/0.png" },
+    "image": { "url": "https://cdn.discordapp.com/embed/avatars/0.png" },
     "fields": [
       {
-        "name": "**Name:**",
+        "name": "Name:",
         "value": "Jessica Aquila"
       },
       {
-        "name": "PLACEHOLDER",
-        "value": "PLACEHOLDER"
+        "name": "Age and DOB:",
+        "value": "26 || April, 17"
       },
       {
-        "name": "PLACEHOLDER",
-        "value": "PLACEHOLDER"
+        "name": "Gender:",
+        "value": "Female"
       },
       {
-        "name": "PLACEHOLDER",
-        "value": "PLACEHOLDER",
+        "name": "Status:",
+        "value": "In Action"
+      },
+      {
+        "name": "Weapon:",
+        "value": "Sniper Rifle",
         "inline": true
       },
       {
-        "name": "PLACEHOLDER",
-        "value": "PLACEHOLDER",
+        "name": "Skill:",
+        "value": "N/A",
         "inline": true
       }
     ]
   }
 });
    }
+   if (message.content === '!app Kayte') {
+    	message.reply({
+  
+  "embed": {
+    "title": "Mercenary Database",
+    "description": "",
+    "color": 0xffbf00,
+    "thumbnail": { "url": "https://cdn.discordapp.com/embed/avatars/0.png" },
+    "image": { "url": "https://cdn.discordapp.com/embed/avatars/0.png" },
+    "fields": [
+      {
+        "name": "Name:",
+        "value": "Kayte Storm"
+      },
+      {
+        "name": "Age and DOB:",
+        "value": "22 || September 22, 2010"
+      },
+      {
+        "name": "Gender:",
+        "value": "Male"
+      },
+      {
+        "name": "Weapon:",
+        "value": "N/A",
+        "inline": true
+      },
+      {
+        "name": "Skills:",
+        "value": "N/A",
+        "inline": true
+      }
+    ]
+  }
+});
+   }
+
    if (message.content === '!events sm') {
     	message.reply({
   
