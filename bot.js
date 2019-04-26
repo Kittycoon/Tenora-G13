@@ -200,7 +200,7 @@ client.on('message', message => {
       },
       {
         "name": "Skill:",
-        "value": "Being A Prick! \n Avoiding Karma!",
+        "value": " Being A Prick \n Avoiding Karma \n soft boy™",
         "inline": true
       }
     ]
@@ -659,15 +659,15 @@ client.on('message', message => {
     "fields": [
       {
         "name": "Name:",
-        "value": "[Deklyn](https://www.deviantart.com/sbinoplane/art/Deklyn-App-795151280)"
+        "value": "[Dex](https://www.deviantart.com/sbinoplane/art/Deklyn-App-795151280)"
       },
       {
         "name": "Age and DOB:",
-        "value": "???"
+        "value": "30"
       },
       {
         "name": "Gender:",
-        "value": "???"
+        "value": "Male"
       },
       {
         "name": "Status:",
