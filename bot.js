@@ -139,7 +139,7 @@ client.on('message', message => {
     "fields": [
       {
         "name": "Name:",
-        "value": "Aviator"
+        "value": "[Aviator](https://www.deviantart.com/invader-jay-122/art/SM2-Aviator-793886959)"
       },
       {
         "name": "Age and DOB:",
@@ -179,7 +179,7 @@ client.on('message', message => {
     "fields": [
       {
         "name": "Name:",
-        "value": "Naotan Boulce"
+        "value": "[Naotan Boulce](https://www.deviantart.com/najishio/art/S-M2-Naotan-Boulce-793886454)"
       },
       {
         "name": "Age and DOB:",
@@ -200,7 +200,7 @@ client.on('message', message => {
       },
       {
         "name": "Skill:",
-        "value": "N/A",
+        "value": "Being A Prick! \n Avoiding Karma!",
         "inline": true
       }
     ]
@@ -219,7 +219,7 @@ client.on('message', message => {
     "fields": [
       {
         "name": "Name:",
-        "value": "Minah Reed"
+        "value": "[Minah Reed](https://www.deviantart.com/najishio/art/S-M2-Minah-Reed-793492654)"
       },
       {
         "name": "Age and DOB:",
@@ -259,7 +259,7 @@ client.on('message', message => {
     "fields": [
       {
         "name": "Name:",
-        "value": "Tyden Patches Smith"
+        "value": "[Tyden Patches Smith](https://www.deviantart.com/adgerelli/art/SM2-Tyden-Patches-Smith-793875802)"
       },
       {
         "name": "Age and DOB:",
@@ -339,7 +339,7 @@ client.on('message', message => {
     "fields": [
       {
         "name": "Name:",
-        "value": "Martin Ray"
+        "value": "[Martin Ray](https://www.deviantart.com/sbinoplane/art/SM2-Martin-793689742)"
       },
       {
         "name": "Age and DOB:",
@@ -355,7 +355,7 @@ client.on('message', message => {
       },
       {
         "name": "Weapon:",
-        "value": "N/A",
+        "value": "M16 Assault Rifle",
         "inline": true
       },
       {
@@ -379,7 +379,7 @@ client.on('message', message => {
     "fields": [
       {
         "name": "Name:",
-        "value": "Karatsuri Ginha || Hickory Silverleaf"
+        "value": "[Karatsuri Ginha || Hickory Silverleaf](https://www.deviantart.com/jshadowm/art/SM2-Karatsuri-Ginha-793532004)"
       },
       {
         "name": "Age and DOB:",
@@ -419,7 +419,7 @@ client.on('message', message => {
     "fields": [
       {
         "name": "Name:",
-        "value": "Kaytlyn HanJun"
+        "value": "[Kaytlyn HanJun](https://www.deviantart.com/orandoggo/art/SM2-Pika-Kit-793494074)"
       },
       {
         "name": "Age and DOB:",
@@ -459,7 +459,7 @@ client.on('message', message => {
     "fields": [
       {
         "name": "Name:",
-        "value": "Mist Nikolae"
+        "value": "[Mist Nikolae](https://www.deviantart.com/heavenswave/art/SM2-Mist-793374355)"
       },
       {
         "name": "Age and DOB:",
@@ -499,7 +499,7 @@ client.on('message', message => {
     "fields": [
       {
         "name": "Name:",
-        "value": "Alex W."
+        "value": "[Alex W.](https://www.deviantart.com/skullychu/art/Alex-W-SM2-773440657)"
       },
       {
         "name": "Age and DOB:",
