@@ -721,6 +721,12 @@ client.on('message', message => {
     	message.reply('please specify the agent to follow up on.');
   	}
 });
+   }
+    if (message.content === 'hey tenora, whose the cutest bitch on this planet') {
+    	message.reply('White, obviously.');
+  	}
+});
+
 
 client.login(process.env.BOT_TOKEN);
 
