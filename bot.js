@@ -720,10 +720,6 @@ client.on('message', message => {
     if (message.content === '!app') {
     	message.reply('please specify the agent to follow up on.');
   	}
-    
-    if (message.content === 'hey tenora, whose the cutest bitch on this planet') {
-    	message.reply('White, obviously.');
-  	}
 });
 
 
